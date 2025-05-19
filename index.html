@@ -31,6 +31,67 @@
 </div>
 <div class="parametro-senha">
 <h4 class="parametro-senha__titulo">Características da senha</h4>
+<div class="parametro-senha-checkbox">
+
+<input name="maiusculo" type="checkbox" class="checkbox" checked>
+<label for="maiusculo">Letras maiúsculas</label>
+</div>
+<div class="parametro-senha-checkbox">/*barra azul de fundo*/
+.barra{
+background-color: var(--fundo-senha);
+height: 30px;
+width: 100%;
+
+}
+.forca{
+height: 30px;
+position: relative; /*sobrepor a barra de fundo*/
+bottom: 30px;
+}
+.fraca{
+width: 25%;
+background-color: #E71B32;
+}
+.media{
+width: 50%;
+background-color: #faf408;
+
+}
+.forte{
+width: 100%;
+background-color: #00ff85;
+}
+/*deixa a legende fraca, média, forte em linha*/
+.parametro-senha-textos{
+display: flex;
+justify-content: space-between;
+}
+<input name="minusculo" type="checkbox" class="checkbox">
+<label for="minusculo">Letras minúsculas</label>
+</div>
+<div class="parametro-senha-checkbox">
+<input name="numero" type="checkbox" class="checkbox">
+<label for="numero">Números</label>
+</div>
+<div class="parametro-senha-checkbox">
+<input name="simbolo" type="checkbox" class="checkbox">
+<label for="simbolo">Símbolos</label>
+</div>
+</div>
+<div class="parametro-senha">
+<h4 class="parametro-senha__titulo">Força da senha</h4>
+<div class="barra"></div> <!--Barra com tom de azul mais claro-->
+<div class="forca media"></div> <!--Bara vermelha-->
+
+<div class="parametro-senha-textos"> <!--Cria a legenda abaixo das cores-
+
+->
+
+<p>Fraca</p>
+<p>Média</p>
+<p>Forte</p>
+</div>
+</div>
 </div>
 <div class="parametro-senha">
 <h4 class="parametro-senha__titulo">Força da senha</h4>
