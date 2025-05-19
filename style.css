@@ -73,14 +73,7 @@ justify-content: center;
 width: 50%;
 margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
-    /*barra azul de fundo*/
-.barra{
-background-color: var(--fundo-senha);
-height: 30px;
-width: 100%;
 
-}
 .forca{
 height: 30px;
 position: relative; /*sobrepor a barra de fundo*/
@@ -127,3 +120,18 @@ padding: 24px;
 margin: 0px;
 font-size: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    /*barra azul de fundo*/
+.barra{
+background-color: var(--fundo-senha);
+height: 30px;
+width: 100%;
+
+}
+
+
+
+
+
+
