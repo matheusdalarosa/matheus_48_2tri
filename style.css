@@ -93,7 +93,6 @@ font-size: 24px;
 }
 /*barra azul de fundo*/
 .barra{
-
 background-color: var(--fundo-senha);
 height: 30px;
 width: 100%;
